@@ -1,7 +1,55 @@
-<h1>
+#HomePage {
+	background-color: #FADADD;
+}
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"> 
+#Purple {
+  background-color: #CBC3E3;
+}
 
-</h1>
+#Blue {
+  background-color: #C8D9F0;
+}
+
+#Pink {
+  background-color: #FFC0CB;
+}
+
+#Clear {
+  background-color: #FAF9F6;
+}
+
+a, h1, p, li, td, th {
+
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li, td, th {
+
+	font-size:20px;
+}
+
+.topnav {
+   background-color: #FFB3BF;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #FAB4CB;
+   color: white;
+}
+
+.topnav a.active {
+   background-color: #F595B5;
+   color: black;
+}
